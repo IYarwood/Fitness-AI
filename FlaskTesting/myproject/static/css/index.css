@@ -1,0 +1,10 @@
+body{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+input{
+    margin: 5px;
+}

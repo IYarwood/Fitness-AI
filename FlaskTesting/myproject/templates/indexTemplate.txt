@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness App</title>
+    <link rel="stylesheet" href="static/css/index.css">
+</head>
+<body>
+    <div class = content>
+        <div>
+            <h1>Fitness AI Advisor</h1>
+        </div>
+        <div>
+            <form action="/" method="POST">
+                <label>Height(feet)</label><br>
+                <input type="number" name="feetInput" value="5"><br>
+                <label>Height(inches)</label><br>
+                <input type="number" name="inchesInput" value="10"><br>
+                <label>Weight (in pounds)</label><br>
+                <input type="number" name="weightInput" value="150"><br>
+                <label for="goalInput">Goal (Gain, Lose, Maintain)</label><br>
+                <input type="text" name="goalInput" value="Gain"><br>
+                <input type="submit" value="Submit">
+                <input type="reset" value="Reset">
+            </form>
+        </div>
+        <!-- Write new code here -->
+        
+    
+</body>
+</html>
